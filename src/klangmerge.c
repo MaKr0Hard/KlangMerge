@@ -9,7 +9,7 @@ if (argc <= 1) {
 };
 
 int is_it_emerge = system("which emerge > /dev/null 2>&1");
-is_it_emerge = 0;
+
 int is_aplay_installed = system("which aplay > /dev/null 2>&1");
 
 
