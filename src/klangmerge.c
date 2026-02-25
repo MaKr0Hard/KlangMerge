@@ -40,7 +40,7 @@ if (is_it_emerge == 0) {
     	
 	system("aplay metal-pipe-clang.wav");
 	} else {
-	printf("Sorry, please install aplay.");
+	printf("Sorry, please install aplay.\n");
 	}
 	} else {
 	printf("You don't have emerge. Use Gentoo Linux, it's so easy to set up.\n");
